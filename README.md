@@ -73,6 +73,12 @@ Scientific Interpretation
 
 # Quick Start
 
+
+> **ชื่อไฟล์ใน repository ปัจจุบัน:** Notebook 000 ใช้ชื่อภาษาไทยจริงคือ  
+> `000_ติดตั้ง_ทดสอบ_ee_api_colab_setup_หลัง_Register.ipynb`  
+> ส่วน Notebook 001–05 ใช้ชื่ออังกฤษตามตารางด้านล่าง ปุ่ม GitHub/Colab ใน README นี้จึงอ้างอิงชื่อไฟล์จริงบน branch `main` โดยตรง
+
+
 หากเป็นผู้เรียนใหม่ ให้ทำตามลำดับนี้
 
 ```text
@@ -97,7 +103,7 @@ Scientific Interpretation
 
 | ขั้น | Notebook | Open |
 |---|---|---|
-| Setup | `000_Earth_Engine_Colab_Setup.ipynb` | <a href="https://colab.research.google.com/github/nattaponm/Teach-Urban-RS/blob/main/000_Earth_Engine_Colab_Setup.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
+| Setup | `000_ติดตั้ง_ทดสอบ_ee_api_colab_setup_หลัง_Register.ipynb` | <a href="https://colab.research.google.com/github/nattaponm/Teach-Urban-RS/blob/main/000_%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87_%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A_ee_api_colab_setup_%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87_Register.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
 | Beginner | `001_GEE_Beginner_Bangkok_Step_by_Step.ipynb` | <a href="https://colab.research.google.com/github/nattaponm/Teach-Urban-RS/blob/main/001_GEE_Beginner_Bangkok_Step_by_Step.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> |
 
 > ปุ่ม **Open in Colab** ใน README นี้ชี้ไปที่ repository ต้นฉบับ `nattaponm/Teach-Urban-RS` โดยตรง จึงเปิดได้แม้นิสิตกำลังอ่าน README จาก fork ของตนเอง
@@ -559,13 +565,13 @@ $$
 
 <tr>
 <td><b>000</b></td>
-<td><b>Earth Engine & Colab Setup</b><br><sub>000_Earth_Engine_Colab_Setup.ipynb</sub></td>
+<td><b>Earth Engine & Colab Setup</b><br><sub>000_ติดตั้ง_ทดสอบ_ee_api_colab_setup_หลัง_Register.ipynb</sub></td>
 <td>เตรียม Google Colab, authenticate, initialize Cloud Project และตรวจว่า Earth Engine API พร้อมใช้งาน</td>
 <td>Earth Engine access, authentication, Cloud Project, Colab runtime</td>
 <td>เชื่อม Python API กับ Earth Engine และทดสอบ API ได้</td>
 <td>
-<a href="https://github.com/nattaponm/Teach-Urban-RS/blob/main/000_Earth_Engine_Colab_Setup.ipynb">GitHub</a><br>
-<a href="https://colab.research.google.com/github/nattaponm/Teach-Urban-RS/blob/main/000_Earth_Engine_Colab_Setup.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://github.com/nattaponm/Teach-Urban-RS/blob/main/000_%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87_%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A_ee_api_colab_setup_%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87_Register.ipynb">GitHub</a><br>
+<a href="https://colab.research.google.com/github/nattaponm/Teach-Urban-RS/blob/main/000_%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87_%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A_ee_api_colab_setup_%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87_Register.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 </td>
 </tr>
 
@@ -731,13 +737,29 @@ Basemap ใช้เพื่อการอ้างอิงและการ
 
 ---
 
+
+## Canonical notebook filenames in this repository
+
+```text
+000_ติดตั้ง_ทดสอบ_ee_api_colab_setup_หลัง_Register.ipynb
+001_GEE_Beginner_Bangkok_Step_by_Step.ipynb
+01_Urban_Boundary_and_Satellite_Imagery.ipynb
+02_Urban_Vegetation_and_Builtup.ipynb
+03_Urban_Heat_and_LST.ipynb
+04_Urban_Time_Series.ipynb
+05_Urban_Environmental_Relationships.ipynb
+```
+
+> หากเปลี่ยนชื่อไฟล์ใดใน GitHub ต้องแก้ทั้ง GitHub link และ Colab link ใน README ให้ตรงกันทุกตัวอักษร
+
+
 # Repository structure
 
 ```text
 Teach-Urban-RS/
 │
 ├── README.md
-├── 000_Earth_Engine_Colab_Setup.ipynb
+├── 000_ติดตั้ง_ทดสอบ_ee_api_colab_setup_หลัง_Register.ipynb
 ├── 001_GEE_Beginner_Bangkok_Step_by_Step.ipynb
 ├── 01_Urban_Boundary_and_Satellite_Imagery.ipynb
 ├── 02_Urban_Vegetation_and_Builtup.ipynb
